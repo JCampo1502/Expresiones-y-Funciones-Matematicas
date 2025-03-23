@@ -30,10 +30,6 @@ int main()
     cout << " * lado B = "<< b<<endl<<endl;
     cout << "*************"<<endl;
 
-
-
-
-
     return 0;
 }
 
