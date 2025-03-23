@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 #ifdef _WIN32
     #include <windows.h>
@@ -13,26 +14,22 @@ using namespace std;
 void clearConsole();
 
 int main() {    
-    double D, d, area;
+    double r, area;
     
-    cout << "********** Área del Rombo **********" << endl;
-    cout << "************************************" << endl << endl;
+    cout << "********** Área del Círculo **********" << endl;
+    cout << "**************************************" << endl << endl;
     
-    cout << "Ingrese la diagonal mayor: ";
-    cin >> D;
-    
-    cout << "Ingrese la diagonal menor: ";
-    cin >> d;
+    cout << "Ingrese el radio: ";
+    cin >> r;
 
     clearConsole();
     
-    area = (D * d) / 2; 
+    area = M_PI * pow(r, 2); 
     
     cout << "*************" << endl;
-    cout << "Rombo:" << endl;
+    cout << "Círculo:" << endl;
     cout << " * Área  = " << area << endl;
-    cout << " * Diagonal mayor = " << D << endl;
-    cout << " * Diagonal menor = " << d << endl;
+    cout << " * Radio = " << r << endl;
     cout << "*************" << endl << endl;
 
     return 0;
