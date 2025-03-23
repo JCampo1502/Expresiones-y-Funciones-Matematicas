@@ -1,3 +1,4 @@
+
 # 📐 Proyecto: Cálculo de Áreas Geométricas
 
 ## 🚀 Introducción
@@ -19,14 +20,15 @@ Cada programa solicitará los valores necesarios y mostrará el área calculada 
 ## 🟥 Área del Rectángulo
 
 📌 **Fórmula:**
-\[ A = base \times altura \]
+```cpp
+A = base * altura;
+```
 
 🖼 **Ejemplo Gráfico:**
 
+![foto_rectangulo_01](https://github.com/user-attachments/assets/9a18541c-10ab-4fe8-a302-e2627e673534)
 
-![foto_rectangulo_01](https://github.com/user-attachments/assets/932a87ee-c911-415e-bac3-6d9385561a60)
-
-![foto_rectangulo_02](https://github.com/user-attachments/assets/f125083e-2aa2-4b33-a4de-187edf99dee5)
+![foto_rectangulo_02](https://github.com/user-attachments/assets/c18f8a66-440e-417f-b5fc-d6f21189fb6a)
 
 
 ---
@@ -34,38 +36,47 @@ Cada programa solicitará los valores necesarios y mostrará el área calculada 
 ## 🔺 Área del Triángulo
 
 📌 **Fórmula:**
-\[ A = \frac{base \times altura}{2} \]
+```cpp
+A = (base * altura) / 2;
+```
 
 🖼 **Ejemplo Gráfico:**
 
-![foto_triangulo_01](https://github.com/user-attachments/assets/821f5036-96a3-453c-8b25-1a0d007aa154)
+![foto_triangulo_01](https://github.com/user-attachments/assets/b70169b8-8947-4d00-8195-545cafd48c6e)
 
-![foto_triangulo_02](https://github.com/user-attachments/assets/e928ff45-29c6-4531-9111-ec5887410dbb)
+![foto_triangulo_02](https://github.com/user-attachments/assets/f9097349-818f-45bd-aa67-26023edfdacf)
+
 
 ---
 
 ## ⚪ Área del Círculo
 
 📌 **Fórmula:**
-\[ A = \pi \times radio^2 \]
+```cpp
+A = M_PI * pow(radio, 2);
+```
 
 🖼 **Ejemplo Gráfico:**
 
-![foto_circulo_01](https://github.com/user-attachments/assets/473b2ebf-e59c-45b0-82fe-d1e89edb0ce7)
+![foto_circulo_01](https://github.com/user-attachments/assets/7b6f7dbc-131b-4a3e-ad90-9ead9ece175e)
 
-![foto_circulo_02](https://github.com/user-attachments/assets/75341485-4c39-454b-8b96-f1be31645258)
+![foto_circulo_02](https://github.com/user-attachments/assets/12d83333-3d7c-4185-9e77-e78098245b2f)
+
 
 ---
 
 ## 🔷 Área del Rombo
 
 📌 **Fórmula:**
-\[ A = \frac{Diagonal\_Mayor \times Diagonal\_Menor}{2} \]
+```cpp
+A = (Diagonal_Mayor * Diagonal_Menor) / 2;
+```
 
 🖼 **Ejemplo Gráfico:**
 
-![foto_rombo_01](https://github.com/user-attachments/assets/473ced61-c45e-4a6c-90cd-f7dc69a8b74b)
-![foto_rombo_02](https://github.com/user-attachments/assets/9523fbd9-7d60-48d4-9b87-0559816a820a)
+![foto_rombo_01](https://github.com/user-attachments/assets/67b809cb-a4f8-41cd-8f8c-9972f1a93857)
+
+![foto_rombo_02](https://github.com/user-attachments/assets/c5b8e558-6fdd-45f1-a95d-d2c60930cfde)
 
 
 ---
@@ -73,28 +84,28 @@ Cada programa solicitará los valores necesarios y mostrará el área calculada 
 ## 🔲 Área del Trapecio
 
 📌 **Fórmula:**
-\[ A = \frac{(Base\_Mayor + Base\_Menor) \times Altura}{2} \]
+```cpp
+A = ((Base_Mayor + Base_Menor) * Altura) / 2;
+```
 
 🖼 **Ejemplo Gráfico:**
 
-![foto_trapecio_01](https://github.com/user-attachments/assets/949b6fe2-d5cc-4cd7-a0fd-d52b741dfc6f)
-![foto_trapecio_02](https://github.com/user-attachments/assets/240d2e8a-e712-4af6-a483-5bf8ccdf8bdd)
+![foto_trapecio_01](https://github.com/user-attachments/assets/f9f392f9-bbc0-4dcf-a212-89c67d1ed8f0)
 
+![foto_trapecio_02](https://github.com/user-attachments/assets/ae4ad4fc-9e11-4efa-9183-58c966b05577)
 
 ---
 
 ## 📏 Área del Paralelogramo
 
 📌 **Fórmula:**
-\[ A = base \times altura \]
+```cpp
+A = base * altura;
+```
 
 🖼 **Ejemplo Gráfico:**
 
-![foto_paralelogramo_01](https://github.com/user-attachments/assets/0a48a1c2-41a9-45a6-be2b-c77aa9f94b5f)
+![foto_paralelogramo_01](https://github.com/user-attachments/assets/81fbf652-6d29-47b3-aacb-97bdc158b804)
 
-![foto_paralelogramo_02](https://github.com/user-attachments/assets/3e6911ca-6962-4ae3-b7e2-901be1020ba8)
-
----
-
-✨ ¡Disfruta programando y aprendiendo sobre geometría con C++! 🚀
+![foto_paralelogramo_02](https://github.com/user-attachments/assets/6857ed08-ecf8-444c-92f9-fba14cd5157f)
 
