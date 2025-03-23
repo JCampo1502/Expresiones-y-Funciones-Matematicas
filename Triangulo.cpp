@@ -13,11 +13,10 @@ using namespace std;
 void clearConsole();
 
 int main()
-{
-    int b,h;
-    double result;
+{    
+    double b,h,result;
     cout <<"********** Área Triángulo **********"<<endl;
-    cout <<"*************************************"<<endl<<endl;
+    cout <<"************************************"<<endl<<endl;
     cout << "Ingrese la base = ";
     cin >> b;
     cout << endl<< "Ingrese la altura = ";
@@ -26,7 +25,7 @@ int main()
     result = (b*(double)h)/2;
     cout << "*************"<<endl;
     cout << "Triángulo:"<<endl;
-    cout << " * área   = "<< result<<endl;
+    cout << " * Área   = "<< result<<endl;
     cout << " * Base   = "<< b<<endl;
     cout << " * Altura = "<< h<<endl<<endl;
     cout << "*************"<<endl;

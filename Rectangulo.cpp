@@ -25,9 +25,9 @@ int main()
     result = a*b;
     cout << "*************"<<endl;
     cout << "Rectángulo:"<<endl;
-    cout << " * área   = "<< result<<endl;
-    cout << " * lado A = "<< a<<endl;
-    cout << " * lado B = "<< b<<endl<<endl;
+    cout << " * Área   = "<< result<<endl;
+    cout << " * Lado A = "<< a<<endl;
+    cout << " * Lado B = "<< b<<endl<<endl;
     cout << "*************"<<endl;
 
     return 0;
